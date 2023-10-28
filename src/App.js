@@ -1,4 +1,4 @@
-import "./App.css"
+import "./App.css";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 //import HomePage from "./pages/HomePage";
@@ -6,7 +6,7 @@ import LoginPage from "./pages/LoginPage";
 import SignupPage from "./pages/SignupPage";
 import HomePage from "./pages/HomePage";
 import MainPage from "./pages/MainPage";
-import DraftPage from "./pages/DraftPage";
+import DraftPage from "./pages/TestPage";
 
 export default function App() {
   return (
@@ -16,12 +16,12 @@ export default function App() {
           <Route path="login" element={<LoginPage />} />
           <Route path="signup" element={<SignupPage />} />
           <Route path="main" element={<MainPage />} />
-          <Route path="draft" element={<DraftPage />} /> 
+          <Route path="draft" element={<DraftPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
   );
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
