@@ -1,0 +1,25 @@
+.bg-box {
+    background-color: rgba(255,255,255,0.85);
+    color: black;
+}
+
+.bg-brown {
+    background-color: brown;
+    color: white; 
+}
+
+.bg-orange {
+    background-color: orange;
+    color: white; 
+}
+
+.text-orange {
+    color: orange;
+}
+
+
+form {
+    border-style: double;
+    border-width: 1rem;
+    border-color: orange;
+}
